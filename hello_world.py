@@ -9,3 +9,13 @@ print("Welcome to Python!")
 # 6. tuple (("apple", "banana", "cherry"))
 # 7. dictionary ({"name" : "saim", "age" : 16})
 # 8. set ({"apple", "banana", "cherry"})
+
+# variables 
+num = 1
+
+# Small program 
+
+name = input('Enter your name:')
+country= input('Enter your country:')
+
+print(f'Hello {name}!  from {country}.')
