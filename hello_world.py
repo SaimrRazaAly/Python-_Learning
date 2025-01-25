@@ -19,3 +19,11 @@ name = input('Enter your name:')
 country= input('Enter your country:')
 
 print(f'Hello {name}!  from {country}.')
+
+
+result = str("'hello'")
+print(result)  # Output: 'hello'
+
+reper = repr("hello")
+print(reper)  # Output: 'hello'
+eval = eval(reper) # hello
