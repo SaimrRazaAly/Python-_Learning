@@ -39,3 +39,61 @@ else:
     Grade="FAIL"
     
 print(f"your Grade is {Grade}")
+
+
+# Food Ripness Checker 
+banana = "green"
+
+if banana == "green":
+    print("UnRipe ")
+elif banana == "yellow":
+    print("Ripe")
+else:
+    print("OverRipe ")
+
+# Activity Sugesstion using Weather
+
+Weather = "sunny"
+
+if Weather == "sunny":
+    print("Go for a walk")
+elif Weather == "rainy":
+    print("Read a book")
+else:
+    print("Build a snowMan")
+    
+# Taxi Provider
+distance = "4"
+
+if distance != int:
+    print("Please Enter a distacne in the form of integer not need to give KM with it ")
+    exit()
+    
+action = ""
+if distance <=3 and distance > 0:
+    action = "Walk"
+elif distance >3 and distance < 15:
+    action="BiceCycle"
+elif distance >= 15:
+    action = "Car"
+else:
+    action = "Dont go any where stay at home "
+
+if distance < 0 :
+    print(action)
+else:
+    print(f"go with {action}")
+    
+# Password stength checker
+password= "Asdfiuoi"
+Strength = ""
+length = len(password)
+
+if length < 6 and length >0 :
+    Strength = "Weak"
+elif length >=6 and length <10 :
+    Strength = "Medium"
+else:
+    Strength = "Strong"
+    
+print("Your password is",Strength,"with",length,"Characters")
