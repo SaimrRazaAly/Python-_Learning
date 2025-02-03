@@ -55,3 +55,14 @@ while number > 0:
     facorial = facorial * 5
     number = number - 1 
 print(facorial)
+
+# take input from user until he enters a number between 1 or 10
+UserInput = int(input("Enter a number btw 1/10 : "))
+
+while True:
+    if(UserInput >= 1 and UserInput <= 10):
+        print("DONE")
+        break
+    else:
+        UserInput = int(input("Enter a number btw 1/10 : "))
+    
