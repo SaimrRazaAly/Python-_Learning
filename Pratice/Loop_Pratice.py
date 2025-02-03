@@ -45,3 +45,13 @@ for car in string:
         print("the fist none repertaing charater is :" , car)
         break
       
+
+# Calculating Factrorial of a number using while loop
+
+number  = 5
+facorial = 1
+
+while number > 0:
+    facorial = facorial * 5
+    number = number - 1 
+print(facorial)
