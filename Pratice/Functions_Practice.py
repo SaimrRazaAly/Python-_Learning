@@ -30,3 +30,12 @@ def Circle_opeation(radius):
 a,c = Circle_opeation(41)
 
 print("the area is,",round(a,1),"\nthe cercomferece is ,", round(c,1),)
+
+
+# make a funciton with default parameter 
+
+def Greeting (name="saim"):
+    print(f"hi {name} !")
+    
+Greeting()    
+Greeting("ali")    
