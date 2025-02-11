@@ -39,3 +39,36 @@ def Greeting (name="saim"):
     
 Greeting()    
 Greeting("ali")    
+
+
+# functiion with *args
+
+def Give_Me_Numbers(*args):
+    # return sum(args)
+    # or
+     print(args)
+     for i in args:
+         print(i * 2)
+     return sum(args)
+
+    
+print(Give_Me_Numbers(1,2,3))   
+# print(Give_Me_Numbers(1,2,3,6,7,8,8))   
+
+
+# functoin with keyword arguments
+
+def Greeting(name,age):
+    print(f"Name:",name,"Age:",age)
+
+print(Greeting(name="saim",age=23))
+print(Greeting(age=23,name="saim"))
+# print(Greeting(age=23,name="saim",gender="male")) # error
+
+# so inorder to fix it we use keyword arguments
+
+def Greeting(**kwargs):
+    for key,value in kwargs.items():
+        print(key,":",value)
+
+print(Greeting(age=23,name="saim",gender="male")) # 
